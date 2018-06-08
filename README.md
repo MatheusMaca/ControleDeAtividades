@@ -1,1 +1,1 @@
-# Sistema Controle de atividades.
+# Sistema controle de atividades.
