@@ -7,12 +7,9 @@
         mc:Ignorable="d"
         Title="Tela Principal" Height="450" Width="800" Background="#FF86ABF9">
     <Grid>
-        <Button x:Name="btnCliqueMe" Width="300px" Height="100" Content="Clique-me" Margin="10,10,482,309" Click="btnCliqueMe_Click" />
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" IsChecked="True" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
-        <ComboBox HorizontalAlignment="Left" Margin="190,133,0,0" VerticalAlignment="Top" Width="120"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="32,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="23" Margin="190,194,0,0" TextWrapping="Wrap" Text="Digite seu nome" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnCarregarCadastroUsuario" Content="Abrir cadastro usuario" HorizontalAlignment="Left" Margin="526,133,0,0" VerticalAlignment="Top" Width="215" Height="61" Click="btnCarregarCadastroUsuario_Click"/>
+        <Label Content="Seja bem-vindo!" FontFamily="verdana" FontSize="16px" HorizontalAlignment="Left" Margin="302,24,0,0" VerticalAlignment="Top" Height="32" Width="146"/>
+        <Button x:Name="btnCarregarCadastroUsuario" Content="Abrir cadastro usuario" HorizontalAlignment="Left" Margin="264,72,0,0" VerticalAlignment="Top" Width="215" Height="61" Click="btnCarregarCadastroUsuario_Click"/>
+        <Button x:Name="btnCarregarCadastroCategoria" Content="Abrir cadastro categoria" HorizontalAlignment="Left" Margin="264,155,0,0" VerticalAlignment="Top" Width="215" Height="61"/>
+
     </Grid>
 </Window>
