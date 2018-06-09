@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Controllers;
+using Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,6 +33,24 @@ namespace WpfView
 
         private void btnSalvar_Click(object sender, RoutedEventArgs e)
         {
+            var usuario = new Usuario();
+            var usuarioController = new UsuariosController();
+            usuario.Nome = TextBoxName.Text;
+            usuario.Ativo = true;
+            usuarioController.Adicionar(usuario);
+            if (MessageBox.Show("Deseja cadastrar mais usuários ?", "Confirmação", MessageBoxButton.YesNo) == MessageBoxResult.No)
+            {
+                this.Close();
+            }
+            else
+            {
+                TextBoxName.Clear();
+            }
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
