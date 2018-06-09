@@ -21,6 +21,8 @@ namespace WpfView
     /// </summary>
     public partial class frmUsuario : Window
     {
+        private UsuariosController usuarioController = new UsuariosController(); 
+
         public frmUsuario()
         {
             InitializeComponent();
@@ -34,7 +36,6 @@ namespace WpfView
         private void btnSalvar_Click(object sender, RoutedEventArgs e)
         {
             var usuario = new Usuario();
-            var usuarioController = new UsuariosController();
             usuario.Nome = TextBoxName.Text;
             usuario.Ativo = true;
             usuarioController.Adicionar(usuario);

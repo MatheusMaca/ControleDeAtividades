@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\IBaseController.cs" />
+    <Compile Include="CategoriasController.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Migrations\201806090340301_NewMig.cs" />
     <Compile Include="Migrations\201806090340301_NewMig.Designer.cs">
