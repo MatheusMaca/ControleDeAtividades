@@ -31,5 +31,12 @@ namespace WpfView
             //cadUsu.Show();
             cadUsu.ShowDialog();
         }
+
+        private void btnCarregarCadastroCategoria_Click(object sender, RoutedEventArgs e)
+        {
+            frmCategoria cadcat = new frmCategoria();
+            //cadUsu.Show();
+            cadcat.ShowDialog();
+        }
     }
 }

@@ -9,7 +9,6 @@
     <Grid>
         <Label Content="Seja bem-vindo!" FontFamily="verdana" FontSize="16px" HorizontalAlignment="Left" Margin="302,24,0,0" VerticalAlignment="Top" Height="32" Width="146"/>
         <Button x:Name="btnCarregarCadastroUsuario" Content="Abrir cadastro usuario" HorizontalAlignment="Left" Margin="264,72,0,0" VerticalAlignment="Top" Width="215" Height="61" Click="btnCarregarCadastroUsuario_Click"/>
-        <Button x:Name="btnCarregarCadastroCategoria" Content="Abrir cadastro categoria" HorizontalAlignment="Left" Margin="264,155,0,0" VerticalAlignment="Top" Width="215" Height="61"/>
-
+        <Button x:Name="btnCarregarCadastroCategoria" Content="Abrir cadastro categoria" HorizontalAlignment="Left" Margin="264,155,0,0" VerticalAlignment="Top" Width="215" Height="61" Click="btnCarregarCadastroCategoria_Click"/>
     </Grid>
 </Window>
